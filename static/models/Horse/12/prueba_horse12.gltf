@@ -1,0 +1,315 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane",
+            "scale" : [
+                -35.7800178527832,
+                -35.7800178527832,
+                -35.7800178527832
+            ],
+            "translation" : [
+                19.74070167541504,
+                3.5386266708374023,
+                10.232114791870117
+            ]
+        },
+        {
+            "name" : "Sun",
+            "rotation" : [
+                -0.053393300622701645,
+                0.21405762434005737,
+                0.2546909749507904,
+                0.9415206909179688
+            ],
+            "translation" : [
+                -1.2300915718078613,
+                72.01025390625,
+                7.464395046234131
+            ]
+        },
+        {
+            "name" : "Area",
+            "rotation" : [
+                -0.45081111788749695,
+                0.48355937004089355,
+                0.13490834832191467,
+                0.7380646467208862
+            ],
+            "translation" : [
+                3.244687080383301,
+                56.833778381347656,
+                -15.080672264099121
+            ]
+        },
+        {
+            "name" : "Area.001",
+            "rotation" : [
+                -0.05217372626066208,
+                -0.751207709312439,
+                -0.5334120392799377,
+                0.38527485728263855
+            ],
+            "translation" : [
+                29.154277801513672,
+                56.80625915527344,
+                33.886985778808594
+            ]
+        },
+        {
+            "name" : "Sun.001",
+            "rotation" : [
+                0.14177347719669342,
+                0.8157804012298584,
+                0.21821685135364532,
+                0.5165113806724548
+            ],
+            "translation" : [
+                18.764848709106445,
+                72.01025390625,
+                26.391735076904297
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.29865312576293945,
+                -0.6977219581604004,
+                0.5009954571723938,
+                0.41592544317245483
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "pCylinder7",
+            "rotation" : [
+                0.2852681279182434,
+                -0.647010087966919,
+                0.6470101475715637,
+                0.2852681279182434
+            ],
+            "scale" : [
+                4.204891204833984,
+                4.204891204833984,
+                4.204891204833984
+            ],
+            "translation" : [
+                54.707332611083984,
+                -13.237849235534668,
+                -58.39031219482422
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "prueba.001",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 2
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Mesh.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "normal",
+            "uri" : "normal.png"
+        },
+        {
+            "mimeType" : "image/jpg",
+            "name" : "baked",
+            "uri" : "baked.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1,
+                0,
+                1
+            ],
+            "min" : [
+                -1,
+                0,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 8153,
+            "max" : [
+                22.603290557861328,
+                1.1458590030670166,
+                -3.247960090637207
+            ],
+            "min" : [
+                16.30198860168457,
+                -1.1458591222763062,
+                -21.13591957092285
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 8153,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 8153,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 44040,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 166,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50012,
+            "byteOffset" : 168
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 50180,
+            "uri" : "prueba_horse12.bin"
+        }
+    ]
+}
